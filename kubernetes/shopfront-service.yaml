@@ -30,8 +30,8 @@ spec:
         app: shopfront
     spec:
       containers:
-      - name: djshopfront
-        image: danielbryantuk/djshopfront:latest
+      - name: shopfront
+        image: kdetony/appshop:0.1
         ports:
         - containerPort: 8010
         livenessProbe:
